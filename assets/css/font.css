@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+@font-face {
+    font-family: 'ss-extrabold';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Black.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Black.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Black.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Black.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Black.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Black.svg#SourceSerifPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    /*font-family: 'ss-bold';*/
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Bold.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Bold.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Bold.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Bold.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Bold.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Bold.svg#SourceSerifPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ss-regular';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Regular.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Regular.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Regular.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Regular.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Regular.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Regular.svg#SourceSerifPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    /*font-family: 'ss-light';*/
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Light.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Light.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Light.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Light.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Light.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-Light.svg#SourceSerifPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ss-semibold';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-SemiBold.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-SemiBold.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-SemiBold.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-SemiBold.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-SemiBold.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-SemiBold.svg#SourceSerifPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* --------------------------------------------
+--------------------nunito sans----------------
+------------------------------------------------  */
+
+@font-face {
+    /*font-family: 'ns-bold';*/
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Bold.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Bold.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Bold.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Bold.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Bold.svg#NunitoSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ns-extrabold';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraBold.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraBold.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraBold.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraBold.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraBold.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraBold.svg#NunitoSans-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ns-black';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Black.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Black.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Black.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Black.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Black.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Black.svg#NunitoSans-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ns-italic';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Italic.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Italic.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Italic.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Italic.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Italic.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Italic.svg#NunitoSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ns-regular';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Regular.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Regular.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Regular.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Regular.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Regular.svg#NunitoSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ns-light';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Light.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Light.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Light.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Light.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Light.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-Light.svg#NunitoSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ns-semibold';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBold.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBold.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBold.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBold.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBold.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBold.svg#NunitoSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ns-semibold-italic';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBoldItalic.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBoldItalic.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBoldItalic.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBoldItalic.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBoldItalic.svg#NunitoSans-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ns-bold-italic';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-BlackItalic.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-BlackItalic.eot?#iefix') format('embedded-opentype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-BlackItalic.woff2') format('woff2'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-BlackItalic.woff') format('woff'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-BlackItalic.ttf') format('truetype'), url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-BlackItalic.svg#NunitoSans-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+/* ================================= BRUTA FONTS =========================================== */
+
+
+@font-face {
+    font-family: 'bruta-bold';
+    src: url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-Bold.eot');
+    src: url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-Bold.eot?#iefix') format('embedded-opentype'), 
+    url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-Bold.woff2') format('woff2'), 
+    url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-Bold.woff') format('woff'), 
+    url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-Bold.ttf') format('truetype');
+    font-style: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bruta-semibold';
+    src: url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-SemiBold.eot');
+    src: url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-SemiBold.eot?#iefix') format('embedded-opentype'), 
+    url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-SemiBold.woff2') format('woff2'), 
+    url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-SemiBold.woff') format('woff'), 
+    url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bruta-regular';
+    src: url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-Regular.eot');
+    src: url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-Regular.eot?#iefix') format('embedded-opentype'), 
+    url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-Regular.woff2') format('woff2'), 
+    url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-Regular.woff') format('woff'), 
+    url('https://cdn.mastersunion.org/assets/imgV2/BrutaProExtended-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* ================================= BRUTA FONTS =========================================== */
+
+
+
+/* @font-face {
+    font-family: 'Source Serif Pro';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-ExtraLightIt.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-ExtraLightIt.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-ExtraLightIt.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-ExtraLightIt.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-ExtraLightIt.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-ExtraLightIt.svg#SourceSerifPro-ExtraLightIt') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+} */
+
+
+/* 
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-BoldIt.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-BoldIt.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-BoldIt.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-BoldIt.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-BoldIt.svg#SourceSerifPro-BoldIt') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+} */
+
+
+/* @font-face {
+    font-family: 'Source Serif Pro';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-BlackIt.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-BlackIt.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-BlackIt.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-BlackIt.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-BlackIt.svg#SourceSerifPro-BlackIt') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+} */
+
+
+/* @font-face {
+    font-family: 'Source Serif Pro';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-ExtraLight.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-ExtraLight.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-ExtraLight.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-ExtraLight.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-ExtraLight.svg#SourceSerifPro-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+} */
+
+
+/* @font-face {
+    font-family: 'ss-lightitalic';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-LightIt.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-LightIt.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-LightIt.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-LightIt.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-LightIt.svg#SourceSerifPro-LightIt') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+} */
+
+
+/* @font-face {
+    font-family: 'Source Serif Pro';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-It.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-It.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-It.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-It.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-It.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-It.svg#SourceSerifPro-It') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+} */
+
+
+/* @font-face {
+    font-family: 'Source Serif Pro';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-SemiBoldIt.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-SemiBoldIt.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-SemiBoldIt.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-SemiBoldIt.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-SemiBoldIt.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/SourceSerifPro-SemiBoldIt.svg#SourceSerifPro-SemiBoldIt') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+} */
+
+
+/* --------------------------------------------
+--------------------nunito sans----------------
+------------------------------------------------  */
+
+
+/* @font-face {
+    font-family: 'Nunito Sans';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-BoldItalic.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-BoldItalic.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-BoldItalic.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-BoldItalic.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-BoldItalic.svg#NunitoSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+} */
+
+
+/* @font-face {
+    font-family: 'Nunito Sans';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraBoldItalic.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraBoldItalic.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraBoldItalic.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraBoldItalic.svg#NunitoSans-ExtraBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+} */
+
+
+/* @font-face {
+    font-family: 'Nunito Sans';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraLight.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraLight.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraLight.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraLight.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraLight.svg#NunitoSans-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+} */
+
+
+/* @font-face {
+    font-family: 'Nunito Sans';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraLightItalic.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraLightItalic.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraLightItalic.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraLightItalic.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-ExtraLightItalic.svg#NunitoSans-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+} */
+
+
+/* @font-face {
+    font-family: 'Nunito Sans';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBoldItalic.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBoldItalic.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBoldItalic.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBoldItalic.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-SemiBoldItalic.svg#NunitoSans-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+} */
+
+
+/* @font-face {
+    font-family: 'Nunito Sans';
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-LightItalic.eot');
+    src: url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-LightItalic.woff2') format('woff2'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-LightItalic.woff') format('woff'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-LightItalic.ttf') format('truetype'),
+        url('https://cdn.mastersunion.org/assets/fontV2/NunitoSans-LightItalic.svg#NunitoSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+ */

@@ -1,0 +1,39 @@
+:root {
+  --yellow: #fad133;
+  /* --maroon:#871A4C; */
+  --maroon:#a91d54;
+  --light-maroon:#D1D3D4;
+  --light-hero-bg:#D1D3D4;
+	--offwhite:#D1D3D4;
+  --light-yellow: rgba(250, 209, 51, 0.05);
+  --yellow-border: #feeeb3;
+  --gray-border:#b6aeae;
+  --red: #d63736;
+  --white: #ffffff;
+  --black: #121112;
+  --purpleblack: #1B181C;
+  --light-black: #343434;
+  --dark-grey: #585858;
+  --light-grey: #dddddd;
+  --green: #237951;
+  --light-green: #bdd7cb;
+  --light-pink: #f3c3c3;
+  --blue: #2f5ea0;
+  --light-blue: #c1cfe3;
+  --lighter-black: #101010;
+  --lighter-grey: #4e5d64;
+  --light-bg: #fefcf4;
+  --light-blue: #2f5ea0;
+  --vlight-bg:#fffdf9;
+  --grey-bg:#f9f9f9;
+  --lightBrown: #FEFBF5;
+  --gradient: linear-gradient(108.71deg, #FFED71 0%, #FF4A70 100%);
+}
+
+input,
+textarea,
+button,
+select,
+a{
+  -webkit-tap-highlight-color: transparent;
+}
