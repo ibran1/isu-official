@@ -54443,7 +54443,7 @@ align-items: flex-start;
   }
 
   .mobDesignScroll .mainScrollableBox {
-    height: 535px;
+    /* height: 535px; */
     overflow: hidden;
     margin: 0;
     padding: 0;
